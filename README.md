@@ -1,6 +1,6 @@
 # Bandit Notes
 
-This repo contains my notes and solutions for the **Bandit wargame** from [OverTheWire](https://overthewire.org/wargames/bandit/).
+This repo contains my notes and solutions for the Bandit wargame from [OverTheWire](https://overthewire.org/wargames/bandit/).
 
 The Bandit game is designed to teach the basics of Linux commands, file system navigation, and remote server access.
 
@@ -8,10 +8,9 @@ The Bandit game is designed to teach the basics of Linux commands, file system n
 
 ## How to Start
 
-1. **Install SSH**  
-   Make sure you have SSH installed (you probably already do if you're on Linux or Mac. Windows users can use Command Prompt, Git Bash, or WSL).
+1. Install SSH 
 
-2. **Login to Bandit**  
+2. Login to Bandit
    To connect to the Bandit server, open your terminal and type:
 
    ```bash
@@ -27,15 +26,15 @@ The Bandit game is designed to teach the basics of Linux commands, file system n
 
 ## How to Progress to the Next Level
 
-- After solving a level, you will find the **password** for the next level.
-- Use that password to **log in** to the next user.
+- After solving a level, you will find the password for the next level.
+- Use that password to log in to the next user.
 - Example to move to Level 1:
 
   ```bash
   ssh bandit1@bandit.labs.overthewire.org -p 2220
   ```
 
-  (And paste the new password when asked.)
+  (And paste the new password when asked)
 
 - **TIP:** Save passwords as you go! They are not saved automatically.
 
